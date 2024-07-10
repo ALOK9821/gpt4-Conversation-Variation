@@ -1,5 +1,5 @@
 def create_variation_prompt(conversation):
-    variation_prompt = f"""You are given provided with a part of a long conversation between a "User" and an AI "Assistant".
+    variation_prompt = f"""You are provided with a part of a long conversation between a "User" and an AI "Assistant".
             The task is to create a variation of the given part of the conversation following the instructions given.
             Instructions:\n
                 - The start of the string might have "User" or "Assistant" or any abbreviation of weather the given part is from the user or the AI, use the same abbreviation for the output. 
