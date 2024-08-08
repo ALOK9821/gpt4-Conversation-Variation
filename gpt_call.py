@@ -37,7 +37,7 @@ def gpt_call(prompt):
                 "content": prompt,
             }
         ],
-        model="gpt-4",
+        model="gpt-40",
     )
     return chat_completion.choices[0].message.content
 
