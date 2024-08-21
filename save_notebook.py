@@ -19,6 +19,5 @@ def save_notebook(variations, original_notebook, output_path):
         'nbformat_minor': original_notebook.get('nbformat_minor', 2)
     }
     
-    # Save the new notebook to the output path
     with open(output_path, 'w') as file:
         json.dump(new_notebook, file, indent=2)
